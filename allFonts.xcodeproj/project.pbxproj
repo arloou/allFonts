@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C326F331A7B74C400397F5A /* searchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C326F321A7B74C400397F5A /* searchResultTableViewController.m */; };
+		1C326F361A7B91B000397F5A /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C326F341A7B91B000397F5A /* up.png */; };
+		1C326F371A7B91B000397F5A /* up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C326F351A7B91B000397F5A /* up@2x.png */; };
+		1CBAF6F71A6E087000D8D3E1 /* AMScrollingNavbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAF6F61A6E087000D8D3E1 /* AMScrollingNavbarViewController.m */; };
+		1CBAF6FA1A6E3FE200D8D3E1 /* ZTypewriteEffectLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAF6F91A6E3FE200D8D3E1 /* ZTypewriteEffectLabel.m */; };
+		1CBAF6FC1A6E415500D8D3E1 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1CBAF6FB1A6E415500D8D3E1 /* click.wav */; };
+		1CBDD7D11A81D0B300FA4EB6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBDD7CF1A81D0B300FA4EB6 /* back.png */; };
+		1CBDD7D21A81D0B300FA4EB6 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBDD7D01A81D0B300FA4EB6 /* back@2x.png */; };
+		1CBDD8C21A821A4F00FA4EB6 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBDD8C01A821A4F00FA4EB6 /* ProgressHUD.m */; };
+		1CBDD8C31A821A4F00FA4EB6 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1CBDD8C11A821A4F00FA4EB6 /* ProgressHUD.bundle */; };
 		1CCA332A1A6CF24400FBC14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA33291A6CF24400FBC14A /* main.m */; };
 		1CCA332D1A6CF24400FBC14A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA332C1A6CF24400FBC14A /* AppDelegate.m */; };
 		1CCA33301A6CF24400FBC14A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA332F1A6CF24400FBC14A /* ViewController.m */; };
 		1CCA33331A6CF24400FBC14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA33311A6CF24400FBC14A /* Main.storyboard */; };
 		1CCA33351A6CF24400FBC14A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA33341A6CF24400FBC14A /* Images.xcassets */; };
-		1CCA33381A6CF24400FBC14A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA33361A6CF24400FBC14A /* LaunchScreen.xib */; };
 		1CCA33441A6CF24400FBC14A /* allFontsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA33431A6CF24400FBC14A /* allFontsTests.m */; };
+		1CCA334F1A6CF64700FBC14A /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA334E1A6CF64700FBC14A /* detailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C326F311A7B74C400397F5A /* searchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchResultTableViewController.h; sourceTree = "<group>"; };
+		1C326F321A7B74C400397F5A /* searchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchResultTableViewController.m; sourceTree = "<group>"; };
+		1C326F341A7B91B000397F5A /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		1C326F351A7B91B000397F5A /* up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up@2x.png"; sourceTree = "<group>"; };
+		1CBAF6EB1A6DF21100D8D3E1 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		1CBAF6EC1A6DF24D00D8D3E1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1CBAF6F51A6E087000D8D3E1 /* AMScrollingNavbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMScrollingNavbarViewController.h; sourceTree = "<group>"; };
+		1CBAF6F61A6E087000D8D3E1 /* AMScrollingNavbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMScrollingNavbarViewController.m; sourceTree = "<group>"; };
+		1CBAF6F81A6E3FE200D8D3E1 /* ZTypewriteEffectLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTypewriteEffectLabel.h; sourceTree = "<group>"; };
+		1CBAF6F91A6E3FE200D8D3E1 /* ZTypewriteEffectLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTypewriteEffectLabel.m; sourceTree = "<group>"; };
+		1CBAF6FB1A6E415500D8D3E1 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		1CBDD7CF1A81D0B300FA4EB6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		1CBDD7D01A81D0B300FA4EB6 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		1CBDD8BF1A821A4F00FA4EB6 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		1CBDD8C01A821A4F00FA4EB6 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		1CBDD8C11A821A4F00FA4EB6 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		1CCA33241A6CF24400FBC14A /* allFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = allFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCA33281A6CF24400FBC14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CCA33291A6CF24400FBC14A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,10 +62,11 @@
 		1CCA332F1A6CF24400FBC14A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1CCA33321A6CF24400FBC14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CCA33341A6CF24400FBC14A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1CCA33371A6CF24400FBC14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1CCA333D1A6CF24400FBC14A /* allFontsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = allFontsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCA33421A6CF24400FBC14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CCA33431A6CF24400FBC14A /* allFontsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = allFontsTests.m; sourceTree = "<group>"; };
+		1CCA334D1A6CF64700FBC14A /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		1CCA334E1A6CF64700FBC14A /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +90,14 @@
 		1CCA331B1A6CF24400FBC14A = {
 			isa = PBXGroup;
 			children = (
+				1CBAF6F51A6E087000D8D3E1 /* AMScrollingNavbarViewController.h */,
+				1CBAF6F61A6E087000D8D3E1 /* AMScrollingNavbarViewController.m */,
+				1CBAF6FB1A6E415500D8D3E1 /* click.wav */,
+				1CBAF6F81A6E3FE200D8D3E1 /* ZTypewriteEffectLabel.h */,
+				1CBAF6F91A6E3FE200D8D3E1 /* ZTypewriteEffectLabel.m */,
+				1CBDD8BF1A821A4F00FA4EB6 /* ProgressHUD.h */,
+				1CBDD8C01A821A4F00FA4EB6 /* ProgressHUD.m */,
+				1CBDD8C11A821A4F00FA4EB6 /* ProgressHUD.bundle */,
 				1CCA33261A6CF24400FBC14A /* allFonts */,
 				1CCA33401A6CF24400FBC14A /* allFontsTests */,
 				1CCA33251A6CF24400FBC14A /* Products */,
@@ -85,10 +120,15 @@
 				1CCA332C1A6CF24400FBC14A /* AppDelegate.m */,
 				1CCA332E1A6CF24400FBC14A /* ViewController.h */,
 				1CCA332F1A6CF24400FBC14A /* ViewController.m */,
+				1CCA334D1A6CF64700FBC14A /* detailViewController.h */,
+				1CCA334E1A6CF64700FBC14A /* detailViewController.m */,
+				1C326F311A7B74C400397F5A /* searchResultTableViewController.h */,
+				1C326F321A7B74C400397F5A /* searchResultTableViewController.m */,
 				1CCA33311A6CF24400FBC14A /* Main.storyboard */,
 				1CCA33341A6CF24400FBC14A /* Images.xcassets */,
-				1CCA33361A6CF24400FBC14A /* LaunchScreen.xib */,
 				1CCA33271A6CF24400FBC14A /* Supporting Files */,
+				1CBAF6EB1A6DF21100D8D3E1 /* CommonDefine.h */,
+				1CBAF6EC1A6DF24D00D8D3E1 /* PrefixHeader.pch */,
 			);
 			path = allFonts;
 			sourceTree = "<group>";
@@ -96,6 +136,10 @@
 		1CCA33271A6CF24400FBC14A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1CBDD7CF1A81D0B300FA4EB6 /* back.png */,
+				1CBDD7D01A81D0B300FA4EB6 /* back@2x.png */,
+				1C326F341A7B91B000397F5A /* up.png */,
+				1C326F351A7B91B000397F5A /* up@2x.png */,
 				1CCA33281A6CF24400FBC14A /* Info.plist */,
 				1CCA33291A6CF24400FBC14A /* main.m */,
 			);
@@ -199,8 +243,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBDD8C31A821A4F00FA4EB6 /* ProgressHUD.bundle in Resources */,
+				1CBAF6FC1A6E415500D8D3E1 /* click.wav in Resources */,
 				1CCA33331A6CF24400FBC14A /* Main.storyboard in Resources */,
-				1CCA33381A6CF24400FBC14A /* LaunchScreen.xib in Resources */,
+				1CBDD7D11A81D0B300FA4EB6 /* back.png in Resources */,
+				1CBDD7D21A81D0B300FA4EB6 /* back@2x.png in Resources */,
+				1C326F361A7B91B000397F5A /* up.png in Resources */,
+				1C326F371A7B91B000397F5A /* up@2x.png in Resources */,
 				1CCA33351A6CF24400FBC14A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBAF6FA1A6E3FE200D8D3E1 /* ZTypewriteEffectLabel.m in Sources */,
 				1CCA33301A6CF24400FBC14A /* ViewController.m in Sources */,
 				1CCA332D1A6CF24400FBC14A /* AppDelegate.m in Sources */,
+				1CBAF6F71A6E087000D8D3E1 /* AMScrollingNavbarViewController.m in Sources */,
+				1C326F331A7B74C400397F5A /* searchResultTableViewController.m in Sources */,
 				1CCA332A1A6CF24400FBC14A /* main.m in Sources */,
+				1CBDD8C21A821A4F00FA4EB6 /* ProgressHUD.m in Sources */,
+				1CCA334F1A6CF64700FBC14A /* detailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +304,6 @@
 				1CCA33321A6CF24400FBC14A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1CCA33361A6CF24400FBC14A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CCA33371A6CF24400FBC14A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,7 +389,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/ucs/Desktop/luzizheng/allFonts/allFonts/PrefixHeader.pch;
 				INFOPLIST_FILE = allFonts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +401,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/ucs/Desktop/luzizheng/allFonts/allFonts/PrefixHeader.pch;
 				INFOPLIST_FILE = allFonts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +462,7 @@
 				1CCA33491A6CF24400FBC14A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CCA334A1A6CF24400FBC14A /* Build configuration list for PBXNativeTarget "allFontsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +471,7 @@
 				1CCA334C1A6CF24400FBC14A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
